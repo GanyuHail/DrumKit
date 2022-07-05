@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 html {
   font-size: 10px;
   background: url('./background.jpg') bottom center;
@@ -7,7 +9,7 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .keys {
@@ -16,10 +18,11 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  font-family: 'EB Garamond', serif;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .1rem solid rgb(91,206,250);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,24 +31,28 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(91,206,250,0.4);
   text-shadow: 0 0 .5rem black;
+  font-family: 'EB Garamond', serif;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: rgb(245 169 184);
+  box-shadow: 0 0 1rem rgb(245 169 184);
+  font-family: 'EB Garamond', serif;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: 'EB Garamond', serif;
 }
 
 .sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-transform: capitalize;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: white;
+  font-family: 'EB Garamond', serif;
 }
